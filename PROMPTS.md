@@ -29,7 +29,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
 - [x] **5** → `raw/page05.png` — commit: `Add page 5`
   Noor and Adam sitting on a rug beside a closed Quran on a wooden stand (rehal). The book is closed,
   with no writing on it.
-- [ ] **6** → `raw/page06.png` — commit: `Add page 6`
+- [x] **6** → `raw/page06.png` — commit: `Add page 6`
   Noor and Adam helping Mom in the kitchen, putting dates on a plate and pouring juice into cups.
 - [ ] **7** → `raw/page07.png` — commit: `Add page 7`
   Noor and Adam packing food boxes with fruit and bread, then handing one to a smiling neighbor at the door.
