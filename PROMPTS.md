@@ -41,7 +41,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
   Grandma and Grandpa arriving for iftar, Noor and Adam hugging them at the door.
 - [x] **11** → `raw/page11.png` — commit: `Add page 11`
   Noor and Adam putting big star stickers on a large wall calendar of empty squares, no numbers or words.
-- [ ] **12** → `raw/page12.png` — commit: `Add page 12`
+- [x] **12** → `raw/page12.png` — commit: `Add page 12`
   A calm night on the rooftop: the family sitting on cushions under a sky full of big simple stars and
   a crescent moon. The sky is white with outlined stars, not black.
 - [ ] **13** → `raw/page13.png` — commit: `Add page 13`
