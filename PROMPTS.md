@@ -23,7 +23,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
 
 ## Jobs
 
-- [ ] **3-redo** → `raw/page03_redo.png` — commit: `Add page 3 redo`
+- [x] **3-redo** → `raw/page03_redo.png` — commit: `Add page 3 redo`
   Suhoor before dawn: only Mom, Dad, Noor and Adam at the table with bowls, bread, dates and water
   (no grandparents). A window behind them with a few stars, drawn as an outline, not filled black.
 - [ ] **5** → `raw/page05.png` — commit: `Add page 5`
