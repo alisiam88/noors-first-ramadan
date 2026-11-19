@@ -110,7 +110,8 @@ def copyright_page(c):
     c.setFont("Fredoka-Medium", 11)
     lines = [
         "Yahia's First Ramadan: A Coloring Story for Little Muslims",
-        "Copyright © 2026. All rights reserved.",
+        "by Ali M. Elsiad",
+        "Copyright © 2026 Ali M. Elsiad. All rights reserved.",
         "",
         "No part of this book may be reproduced in any form without",
         "written permission from the publisher, except for personal,",
@@ -171,7 +172,7 @@ plan += [certificate_page, blank]
 assert len(plan) == 36, len(plan)
 
 c = canvas.Canvas(OUT, pagesize=(W, H), initialFontName="Fredoka-Medium", initialFontSize=12)
-c.setTitle("Yahia's First Ramadan — interior"); c.setAuthor(""); c.setCreator("")
+c.setTitle("Yahia's First Ramadan — interior"); c.setAuthor("Ali M. Elsiad"); c.setCreator("")
 for fn in plan:
     c.setStrokeColorRGB(0, 0, 0); c.setFillColorRGB(0, 0, 0)
     fn(c)

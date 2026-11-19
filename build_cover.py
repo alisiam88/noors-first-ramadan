@@ -70,6 +70,7 @@ rw = d.textlength(sub, font=sf) + PX(0.7)
 d.rounded_rectangle([front_cx - rw / 2, rib_y, front_cx + rw / 2, rib_y + PX(0.55)], radius=PX(0.27),
                     fill=CREAM, outline=GOLD, width=PX(0.04))
 text_center(d, front_cx, rib_y + PX(0.07), sub, sf, (70, 30, 120))
+text_center(d, front_cx, rib_y + PX(0.72), "by Ali M. Elsiad", F("Fredoka-SemiBold", 20), CREAM, 4, (60, 25, 110))
 
 # "Ages 3-6" badge, lower right of the front
 bx, by, br = W - PX(BLEED + SAFE + 0.75), H - PX(BLEED + SAFE + 0.75), PX(0.72)
