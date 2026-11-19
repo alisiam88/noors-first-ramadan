@@ -55,7 +55,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
 
 ## Cover (different rules — full color)
 
-- [ ] **cover** → `raw/cover_front.png` — commit: `Add front cover art`
+- [x] **cover** → `raw/cover_front.png` — commit: `Add front cover art`
   Full color, NOT line art: a premium children's book cover illustration in a soft, cute 3D style.
   Noor and Adam (same characters as the reference) standing together under a large glowing crescent
   moon, Adam holding a glowing lantern (fanous), warm night sky in deep purple and navy with golden
