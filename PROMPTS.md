@@ -33,7 +33,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
   Noor and Adam helping Mom in the kitchen, putting dates on a plate and pouring juice into cups.
 - [x] **7** → `raw/page07.png` — commit: `Add page 7`
   Noor and Adam packing food boxes with fruit and bread, then handing one to a smiling neighbor at the door.
-- [ ] **8** → `raw/page08.png` — commit: `Add page 8`
+- [x] **8** → `raw/page08.png` — commit: `Add page 8`
   Noor and Adam looking out the window at the sun going down behind houses, a round wall clock with no numbers.
 - [ ] **9** → `raw/page09.png` — commit: `Add page 9`
   Iftar: the family breaking the fast together, Noor and Adam each holding a date, a table with simple dishes.
