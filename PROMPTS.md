@@ -37,7 +37,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
   Noor and Adam looking out the window at the sun going down behind houses, a round wall clock with no numbers.
 - [x] **9** → `raw/page09.png` — commit: `Add page 9`
   Iftar: the family breaking the fast together, Noor and Adam each holding a date, a table with simple dishes.
-- [ ] **10** → `raw/page10.png` — commit: `Add page 10`
+- [x] **10** → `raw/page10.png` — commit: `Add page 10`
   Grandma and Grandpa arriving for iftar, Noor and Adam hugging them at the door.
 - [ ] **11** → `raw/page11.png` — commit: `Add page 11`
   Noor and Adam putting big star stickers on a large wall calendar of empty squares, no numbers or words.
