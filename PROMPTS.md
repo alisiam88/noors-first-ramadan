@@ -62,20 +62,6 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
   stars, a mosque silhouette in the distance. Leave the top third mostly empty sky for the title.
   No text, no letters. Tall portrait, highest quality.
 
-## Cover, version 2 (new option — full color)
-
-- [ ] **cover-v2** → `raw/cover_front_v2.png` — commit: `Add front cover art v2`
-  Full color, NOT line art: a premium children's picture-book cover in a soft, cute 3D animated style.
-  Match the characters to `raw/cover_front.png` and `reference/page01_reference.png`.
-  Scene: a cozy rooftop at dusk decorated with strings of glowing lanterns. **Yahia** (little boy, about 4,
-  white kufi and white thobe) stands in the center front, holding up a glowing golden lantern (fanous) and
-  looking up in wonder at a big glowing crescent moon. His big sister **Kayan** (about 5, cream hijab,
-  pink dress with gold trim) stands beside him with a hand on his shoulder, smiling. Behind them, a soft
-  city skyline with a mosque dome and minaret, a deep purple-to-navy sky with golden stars.
-  Layout: keep the top third mostly empty sky for the title, and keep the bottom-right corner simple
-  (a badge goes there). Both faces must be fully visible and nothing important within 0.5 inch of any edge.
-  No text, no letters. Tall portrait, the largest/highest-resolution size available.
-
 ## When finished
 
 Reply with a list of every file you committed, and any job you could not complete and why.
