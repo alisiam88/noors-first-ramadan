@@ -39,7 +39,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
   Iftar: the family breaking the fast together, Noor and Adam each holding a date, a table with simple dishes.
 - [x] **10** → `raw/page10.png` — commit: `Add page 10`
   Grandma and Grandpa arriving for iftar, Noor and Adam hugging them at the door.
-- [ ] **11** → `raw/page11.png` — commit: `Add page 11`
+- [x] **11** → `raw/page11.png` — commit: `Add page 11`
   Noor and Adam putting big star stickers on a large wall calendar of empty squares, no numbers or words.
 - [ ] **12** → `raw/page12.png` — commit: `Add page 12`
   A calm night on the rooftop: the family sitting on cushions under a sky full of big simple stars and
