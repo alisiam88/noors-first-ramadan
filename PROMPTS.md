@@ -31,7 +31,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
   with no writing on it.
 - [x] **6** → `raw/page06.png` — commit: `Add page 6`
   Noor and Adam helping Mom in the kitchen, putting dates on a plate and pouring juice into cups.
-- [ ] **7** → `raw/page07.png` — commit: `Add page 7`
+- [x] **7** → `raw/page07.png` — commit: `Add page 7`
   Noor and Adam packing food boxes with fruit and bread, then handing one to a smiling neighbor at the door.
 - [ ] **8** → `raw/page08.png` — commit: `Add page 8`
   Noor and Adam looking out the window at the sun going down behind houses, a round wall clock with no numbers.
