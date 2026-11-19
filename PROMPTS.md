@@ -47,7 +47,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
 - [x] **13** → `raw/page13.png` — commit: `Add page 13`
   Eid preparations: Noor showing off a new dress and Mom drawing simple henna flowers on Noor's hand;
   Adam in a new thobe.
-- [ ] **14** → `raw/page14.png` — commit: `Add page 14`
+- [x] **14** → `raw/page14.png` — commit: `Add page 14`
   Eid morning: families outside the mosque, Noor and Adam smiling and waving, everyone in festive clothes.
 - [ ] **15** → `raw/page15.png` — commit: `Add page 15`
   Eid party: Noor and Adam with balloons, a plate of cookies and sweets, and wrapped gift boxes;
