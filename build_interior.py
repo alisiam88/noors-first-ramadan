@@ -1,4 +1,4 @@
-"""Build the 36-page KDP interior PDF for Noor's First Ramadan.
+"""Build the 36-page KDP interior PDF for Yahia's First Ramadan.
 8.5 x 11 in, no bleed, black & white. Run from the repo root:
     python3 build_interior.py
 """
@@ -16,7 +16,7 @@ pdfmetrics.registerFont(TTFont("Fredoka-SemiBold", f"{FONTS}/Fredoka-SemiBold.tt
 pdfmetrics.registerFont(TTFont("Fredoka-Medium", f"{FONTS}/Fredoka-Medium.ttf"))
 
 W, H = 8.5 * inch, 11 * inch
-OUT = "kdp/Noors_First_Ramadan_interior.pdf"
+OUT = "kdp/Yahias_First_Ramadan_interior.pdf"
 os.makedirs("kdp", exist_ok=True)
 os.makedirs("build", exist_ok=True)
 
@@ -96,7 +96,7 @@ def corner_stars(c, inset=0.55 * inch):
 # ---------- pages ----------
 def title_page(c):
     border(c); corner_stars(c)
-    outline_text(c, "Noor's First", "Fredoka-Bold", 66, H - 2.05 * inch, 2.6)
+    outline_text(c, "Yahia's First", "Fredoka-Bold", 66, H - 2.05 * inch, 2.6)
     outline_text(c, "Ramadan", "Fredoka-Bold", 82, H - 3.15 * inch, 2.8)
     centered(c, "A Coloring Story for Little Muslims", "Fredoka-Medium", 22, H - 3.85 * inch)
     art = line_art("raw/page01.png")
@@ -109,7 +109,7 @@ def title_page(c):
 def copyright_page(c):
     c.setFont("Fredoka-Medium", 11)
     lines = [
-        "Noor's First Ramadan: A Coloring Story for Little Muslims",
+        "Yahia's First Ramadan: A Coloring Story for Little Muslims",
         "Copyright © 2026. All rights reserved.",
         "",
         "No part of this book may be reproduced in any form without",
@@ -171,7 +171,7 @@ plan += [certificate_page, blank]
 assert len(plan) == 36, len(plan)
 
 c = canvas.Canvas(OUT, pagesize=(W, H), initialFontName="Fredoka-Medium", initialFontSize=12)
-c.setTitle("Noor's First Ramadan — interior"); c.setAuthor(""); c.setCreator("")
+c.setTitle("Yahia's First Ramadan — interior"); c.setAuthor(""); c.setCreator("")
 for fn in plan:
     c.setStrokeColorRGB(0, 0, 0); c.setFillColorRGB(0, 0, 0)
     fn(c)

@@ -1,4 +1,4 @@
-"""Build the KDP paperback wraparound cover for Noor's First Ramadan.
+"""Build the KDP paperback wraparound cover for Yahia's First Ramadan.
 8.5 x 11 in trim, 36 pages, white paper -> spine 36 * 0.002252 = 0.081 in.
 Full cover with 0.125 in bleed: 17.331 x 11.25 in = 5199 x 3375 px @ 300 DPI.
 Run from the repo root:  python3 build_cover.py
@@ -27,7 +27,9 @@ CREAM, GOLD, NIGHT = (255, 246, 220), (246, 196, 82), (34, 18, 84)
 cover = Image.new("RGB", (W, H), NIGHT)
 
 # ---------- front: upscaled art (also runs across the thin spine) ----------
-art = cv2.imread("raw/cover_front.png")
+import sys
+COVER_ART = sys.argv[1] if len(sys.argv) > 1 else "raw/cover_front.png"
+art = cv2.imread(COVER_ART)
 ah, aw = art.shape[:2]
 fw, fh = W - BACK_X1, H                              # spine + front + right bleed
 crop_h = int(round(aw * fh / fw))
@@ -57,7 +59,7 @@ cover = Image.composite(Image.new("RGB", (W, H), (20, 8, 60)), cover, glow)
 
 d = ImageDraw.Draw(cover)
 y0 = PX(BLEED + SAFE + 0.05)
-text_center(d, front_cx, y0, "Noor's First", F("Baloo2-ExtraBold", 62), CREAM, 10, (70, 30, 120), (15, 5, 45))
+text_center(d, front_cx, y0, "Yahia's First", F("Baloo2-ExtraBold", 62), CREAM, 10, (70, 30, 120), (15, 5, 45))
 text_center(d, front_cx, y0 + PX(0.92), "Ramadan", F("Baloo2-ExtraBold", 104), GOLD, 12, (110, 50, 20), (15, 5, 45))
 
 # subtitle ribbon
@@ -113,7 +115,7 @@ def para(text, y, font=body, fill=CREAM, lead=1.38):
     return y
 
 
-y = para("Join Noor and her little brother Adam through their very first Ramadan. They hang lanterns "
+y = para("It's Yahia's very first Ramadan! Join him and his big sister Kayan as they hang lanterns "
          "and stars, wake up for suhoor, share food with their neighbors, break their fast with dates "
          "and celebrate a joyful Eid with the whole family.", y)
 y += PX(0.18)
@@ -162,5 +164,5 @@ for yy in [PX(BLEED), H - PX(BLEED)]:
 gd.rectangle(barcode_box, outline=(255, 0, 0), width=8)
 g.save("build/cover_guides.png")
 
-cover.save("kdp/Noors_First_Ramadan_cover.pdf", resolution=DPI, quality=95)
+cover.save("kdp/Yahias_First_Ramadan_cover.pdf", resolution=DPI, quality=95)
 print(f"cover {W}x{H}px = {COVER_W:.3f} x {COVER_H:.3f} in, spine {SPINE} in; barcode box {barcode_box}; text bottom y={y}")
