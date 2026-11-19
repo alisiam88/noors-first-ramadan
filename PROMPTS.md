@@ -44,7 +44,7 @@ solid black**, no text, no letters, no numbers, no border. Never depict any prop
 - [x] **12** → `raw/page12.png` — commit: `Add page 12`
   A calm night on the rooftop: the family sitting on cushions under a sky full of big simple stars and
   a crescent moon. The sky is white with outlined stars, not black.
-- [ ] **13** → `raw/page13.png` — commit: `Add page 13`
+- [x] **13** → `raw/page13.png` — commit: `Add page 13`
   Eid preparations: Noor showing off a new dress and Mom drawing simple henna flowers on Noor's hand;
   Adam in a new thobe.
 - [ ] **14** → `raw/page14.png` — commit: `Add page 14`
