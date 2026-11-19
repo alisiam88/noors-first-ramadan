@@ -10,3 +10,10 @@ Working repo for the art pipeline.
   `python3 prep_page.py raw/page05.png print/Noor_page05_print.png "Story line here"`
 
 Book: 8.5" × 11", 15 single-sided coloring pages, 36 pages total, B&W interior, white paper, no bleed.
+
+## KDP upload files (`kdp/`)
+- `Noors_First_Ramadan_interior.pdf` — 36 pages, 8.5×11 in, no bleed, fonts embedded.
+  Order: title, copyright, belongs-to, blank, 15 × (coloring page + blank back), certificate, blank.
+- `Noors_First_Ramadan_cover.pdf` — 17.331×11.25 in full wrap (0.125 in bleed, 0.081 in spine, white paper, 36 pages).
+  Barcode area on the back (lower right) is left clear for KDP.
+- Rebuild: `python3 build_interior.py` and `python3 build_cover.py` (fonts in `fonts/`, SIL OFL).
